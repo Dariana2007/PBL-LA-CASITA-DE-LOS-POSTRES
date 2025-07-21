@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario de Eventos y Promociones</title>
+<link href="CSS_PBL.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+  <header>Formulario de Eventos y Promociones</header>
+	<nav class="MENU">
+    <ul>
+      <li><a href="pbl1_dariana.html">Inicio</a></li>
+      <li><a href="pbl2_dariana.html">Menú</a></li>
+      <li><a href="pbl3_dariana.html">Pedidos</a></li>
+      <li><a href="pbl4_dariana.html">Eventos y Promociones</a></li>
+      <li><a href="pbl5_dariana.html">Formulario de Eventos y Promociones</a></li>
+    </ul>
+  </nav>
+
+  <section class="descripcion">
+    <form action="#" method="post" style="max-width: 600px; margin: 0 auto;">
+      
+      <label for="nombre">Nombre completo:</label><br />
+      <input type="text" id="nombre" name="nombre" required style="width: 100%; padding: 8px; margin-bottom: 1rem;" />
+
+      <label for="email">Correo electrónico:</label><br />
+      <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 1rem;" />
+
+      <label for="telefono">Teléfono:</label><br />
+      <input type="tel" id="telefono" name="telefono" style="width: 100%; padding: 8px; margin-bottom: 1rem;" />
+
+      <label for="evento">Tipo de evento:</label><br />
+      <select id="evento" name="evento" required style="width: 100%; padding: 8px; margin-bottom: 1rem;">
+        <option value="">-- Seleccione una opción --</option>
+        <option value="navidad">Promoción de Navidad</option>
+        <option value="amor-amistad">Día del Amor y la Amistad</option>
+        <option value="cumpleanos">Cumpleaños Especial</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <label for="detalle">Detalles del pedido:</label><br />
+      <textarea id="detalle" name="detalle" rows="5" placeholder="Describe tu pedido o cualquier solicitud especial" style="width: 100%; padding: 8px; margin-bottom: 1rem;"></textarea>
+
+   
+    </form>
+  </section>
+	<footer>
+  © 2025 La Casita de los Postres · Todos los derechos reservados
+</footer>
+<body>
+</body>
+</html>
